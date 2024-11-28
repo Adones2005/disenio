@@ -1,0 +1,25 @@
+// Styles.scss
+
+// Primero, importar las funciones de Bootstrap
+@import "../node_modules/bootstrap/scss/functions";
+
+// Luego, importar tus variables personalizadas 
+@import 'utils/_variables';
+
+// Después, importar el resto de utilidades personalizadas 
+@import 'utils/mixins';
+@import 'utils/functions';
+
+// A continuación, importar Bootstrap. Esto asegurará que tus personalizaciones se apliquen sobre Bootstrap.
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Después puedes incluir tu código personalizado para el layout y componentes
+
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/main';
+
+// Components
+@import 'components/card';
+
